@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<!DOCTYPE feature_vector_file [
+   <!ELEMENT feature_vector_file (comments, data_set+)>
+   <!ELEMENT comments (#PCDATA)>
+   <!ELEMENT data_set (data_set_id, section*, feature*)>
+   <!ELEMENT data_set_id (#PCDATA)>
+   <!ELEMENT section (feature+)>
+   <!ATTLIST section start CDATA ""
+                     stop CDATA "">
+   <!ELEMENT feature (name, v+)>
+   <!ELEMENT name (#PCDATA)>
+   <!ELEMENT v (#PCDATA)>
+]>
+
+<feature_vector_file>
+
+   <comments></comments>
+
+	<data_set>
+		<data_set_id>/Users/kirsty/Documents/Music Curation and Analyis /DarkBlueXML.mid</data_set_id>
+		<feature>
+			<name>Number of Pitches</name>
+			<v>2.5E1</v>
+		</feature>
+		<feature>
+			<name>Number of Pitch Classes</name>
+			<v>8E0</v>
+		</feature>
+		<feature>
+			<name>Number of Common Pitches</name>
+			<v>4E0</v>
+		</feature>
+		<feature>
+			<name>Number of Common Pitch Classes</name>
+			<v>2E0</v>
+		</feature>
+		<feature>
+			<name>Range</name>
+			<v>4.3E1</v>
+		</feature>
+		<feature>
+			<name>Pitch Variability</name>
+			<v>9.641E0</v>
+		</feature>
+		<feature>
+			<name>Pitch Class Variability</name>
+			<v>3.492E0</v>
+		</feature>
+		<feature>
+			<name>First Pitch</name>
+			<v>5.1E1</v>
+		</feature>
+		<feature>
+			<name>Last Pitch</name>
+			<v>3.9E1</v>
+		</feature>
+		<feature>
+			<name>Total Number of Notes</name>
+			<v>2.062E3</v>
+		</feature>
+		<feature>
+			<name>Range of Rhythmic Values</name>
+			<v>1E1</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/kirsty/Documents/Music Curation and Analyis /Fur_Elise_by_Ludwig_Van_Beethoven.mid</data_set_id>
+		<feature>
+			<name>Number of Pitches</name>
+			<v>5.5E1</v>
+		</feature>
+		<feature>
+			<name>Number of Pitch Classes</name>
+			<v>1.2E1</v>
+		</feature>
+		<feature>
+			<name>Number of Common Pitches</name>
+			<v>2E0</v>
+		</feature>
+		<feature>
+			<name>Number of Common Pitch Classes</name>
+			<v>2E0</v>
+		</feature>
+		<feature>
+			<name>Range</name>
+			<v>6.7E1</v>
+		</feature>
+		<feature>
+			<name>Pitch Variability</name>
+			<v>1.239E1</v>
+		</feature>
+		<feature>
+			<name>Pitch Class Variability</name>
+			<v>3.417E0</v>
+		</feature>
+		<feature>
+			<name>First Pitch</name>
+			<v>7.6E1</v>
+		</feature>
+		<feature>
+			<name>Last Pitch</name>
+			<v>3.3E1</v>
+		</feature>
+		<feature>
+			<name>Total Number of Notes</name>
+			<v>1.044E3</v>
+		</feature>
+		<feature>
+			<name>Range of Rhythmic Values</name>
+			<v>5E0</v>
+		</feature>
+	</data_set>
+
+	<data_set>
+		<data_set_id>/Users/kirsty/Documents/Music Curation and Analyis /Can Can-Original.mid</data_set_id>
+		<feature>
+			<name>Number of Pitches</name>
+			<v>1.1E1</v>
+		</feature>
+		<feature>
+			<name>Number of Pitch Classes</name>
+			<v>7E0</v>
+		</feature>
+		<feature>
+			<name>Number of Common Pitches</name>
+			<v>5E0</v>
+		</feature>
+		<feature>
+			<name>Number of Common Pitch Classes</name>
+			<v>2E0</v>
+		</feature>
+		<feature>
+			<name>Range</name>
+			<v>3.1E1</v>
+		</feature>
+		<feature>
+			<name>Pitch Variability</name>
+			<v>9.994E0</v>
+		</feature>
+		<feature>
+			<name>Pitch Class Variability</name>
+			<v>3.695E0</v>
+		</feature>
+		<feature>
+			<name>First Pitch</name>
+			<v>5.5E1</v>
+		</feature>
+		<feature>
+			<name>Last Pitch</name>
+			<v>4.7E1</v>
+		</feature>
+		<feature>
+			<name>Total Number of Notes</name>
+			<v>8.1E1</v>
+		</feature>
+		<feature>
+			<name>Range of Rhythmic Values</name>
+			<v>4E0</v>
+		</feature>
+	</data_set>
+
+</feature_vector_file>
