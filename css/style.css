@@ -1,0 +1,23 @@
+/* Add your own CSS rules here */
+h1 {
+  text-align: center;
+	background-color: white
+}
+
+body {background-color: #9CB4B8;
+}
+
+
+
+
+g[class='note'] {
+  color: red;
+}
+
+.highlighted {
+  fill: blue
+}
+
+#controls {
+  float: right;
+}
